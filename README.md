@@ -8,4 +8,4 @@
   https://docs.docker.com/ docker 文档中心，docker入门及熟悉api的好地方
   
 ## 常用docker启动容器命令
-  启动mysql： docker run --name ${pwd} -p 3306:3306 -v ${dir}:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=${pwd} -d mysql --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci
+  启动mysql： docker run --name ${name} -p 3306:3306 -v ${dir}:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=${pwd} -d mysql --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci
